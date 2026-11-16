@@ -1,0 +1,17 @@
+{
+  "kit_timeshare/compatibility.json": "9b48a390055bbc3647564c63d4b395f8b5216cf04906ed8a64293353594a2261",
+  "kit_timeshare/__init__.py": "87eda2a817bd189ab2de3cb89a43ffa11b29b83999e9d71f12a43376afe75605",
+  "kit_timeshare/cli.py": "d2634a64fc8366a28bc0d2ee26395e33b1a1adbf93a9440bb248063b4a45ffc1",
+  "kit_timeshare/pool.py": "7aa0e98ff0130d2b900157c1bf9e4fbc080937822022da363474f283eb4cb85a",
+  "kit_timeshare/factory.py": "9e70424805fab9d964a5a7ddcafdf6dfbe75dace7703f7b29f916e80c1755fce",
+  "kit_timeshare/gpu.py": "5dd74b99e441b1cde9c315566523a32f8fe394b5feb9d6e26b3220837457b00d",
+  "kit_timeshare/compat.py": "2e8280cd10af68f1d7fe9ad1b0a77b2dd1ca3448bff14617ec95a1a0998ee59f",
+  "kit_timeshare/config.py": "9f3994fcdb14b200cc405e16936551a3777ba2a3f2292fad5d49e88c870b9d01",
+  "kit_timeshare/backends/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "kit_timeshare/backends/base.py": "fed8a08fff0a147c1a8004aea43aceb52d67c1b5add0c2a96f5f64ebb994fbc0",
+  "kit_timeshare/backends/behavior.py": "a398843d128d5d7941bd8e74d649fdecccfea8c287e28926b8c985f8cbe3026e",
+  "kit_timeshare/backends/robodojo.py": "0c0f8b93b8becf484404b6e709386bbf0f061f79d141fa07acfcb5ecc7d36512",
+  "kit_timeshare/_runtime/behavior_patches.py": "c6cf5807bea1ee941fb7e679ea5babe518e24b020529cb76c7db3342a0905d11",
+  "kit_timeshare/_runtime/scenes.py": "e53c89519b09ba364c5b32bd6ad7b9c8b926da7dad082928c5e32a5c7267dcac",
+  "kit_timeshare/_runtime/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

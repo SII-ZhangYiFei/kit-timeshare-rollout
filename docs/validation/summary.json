@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-16",
+  "tested_candidate_wheel_sha256": "781141aa386005cc45dd8943e70e1f326792a958a483eb6a999c6c4ee80e65fc",
+  "all_runtime_modules_match_release_source": true,
+  "core_unit_tests": 16,
+  "native_cases": {
+    "robodojo": {
+      "passed": true,
+      "num_envs": 2,
+      "rounds": 3,
+      "step_calls": 18,
+      "inactive_step_checks": 18,
+      "all_calls_changed_selected_physical_state": true,
+      "independent_reset_checks": 6,
+      "startup_s": 193.95143200038,
+      "median_step_service_s": 0.15515446104109287,
+      "median_reset_wall_s": 0.09168659150600433,
+      "native_rewards_observed": [
+        0.0
+      ],
+      "gpu1_worker_access_samples": 0,
+      "worker_swap_bytes_max": 0,
+      "monitor_samples": 102,
+      "protected_existing_processes_unchanged": true,
+      "loaded_legacy_modules": [],
+      "sdk": {
+        "packages": {
+          "isaacsim": "5.1.0.0",
+          "isaaclab": "0.54.3"
+        },
+        "upstream_commit": "f57e1633ffed59761bc8e568cfe7530c4b33381c",
+        "problems": [],
+        "strict": true
+      }
+    },
+    "behavior": {
+      "passed": true,
+      "num_envs": 2,
+      "rounds": 3,
+      "step_calls": 18,
+      "inactive_step_checks": 18,
+      "all_calls_changed_selected_physical_state": true,
+      "independent_reset_checks": 6,
+      "startup_s": 179.03160523623228,
+      "median_step_service_s": 0.08722244459204376,
+      "median_reset_wall_s": 0.38290832843631506,
+      "native_rewards_observed": [
+        0.0
+      ],
+      "gpu1_worker_access_samples": 0,
+      "worker_swap_bytes_max": 0,
+      "monitor_samples": 78,
+      "protected_existing_processes_unchanged": true,
+      "loaded_legacy_modules": [],
+      "sdk": {
+        "packages": {
+          "isaacsim": "5.1.0.0",
+          "omnigibson": "3.9.1"
+        },
+        "upstream_commit": "26f2c7ef7b9cf96bd0414f81e1e751e493762779",
+        "problems": [],
+        "strict": true
+      }
+    }
+  },
+  "initial_failures": [
+    {
+      "case": "initial_device_guard",
+      "reason": "nvidia-modprobe can create a node denied by the container device cgroup; node presence is not access",
+      "fixed": true
+    },
+    {
+      "case": "initial_reward_setup",
+      "reason": "TaskEnv reset clears reward registrations; native EvalEnv.run_eval registers run_reward/get_score separately",
+      "fixed": true
+    },
+    {
+      "case": "reward_state_isolation",
+      "reason": "upstream reward registration reused mutable predicate argument containers between environments; selected evaluation mutated shared env_idx",
+      "fixed": true
+    }
+  ],
+  "limitations": [
+    "two fixed-topology reference tasks only",
+    "no trained-policy success evaluation",
+    "no high-count capacity retest for this API",
+    "physical/task state snapshots do not cover all hidden native caches",
+    "offline material dependencies produced renderer warnings; nonconstant RGB was verified"
+  ]
+}

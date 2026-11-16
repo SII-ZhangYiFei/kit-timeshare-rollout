@@ -1,0 +1,197 @@
+{
+  "backend": "robodojo",
+  "passed": true,
+  "rounds": [
+    [
+      {
+        "env_id": 0,
+        "reward": 0.0,
+        "terminated": false,
+        "truncated": false,
+        "service_s": 0.1698350622318685,
+        "physical_state_changed": true
+      },
+      {
+        "env_id": 1,
+        "reward": 0.0,
+        "terminated": false,
+        "truncated": false,
+        "service_s": 0.15555328223854303,
+        "physical_state_changed": true
+      },
+      {
+        "env_id": 0,
+        "reward": 0.0,
+        "terminated": false,
+        "truncated": false,
+        "service_s": 0.24515815684571862,
+        "physical_state_changed": true
+      },
+      {
+        "env_id": 1,
+        "reward": 0.0,
+        "terminated": false,
+        "truncated": false,
+        "service_s": 0.1547599220648408,
+        "physical_state_changed": true
+      },
+      {
+        "env_id": 0,
+        "reward": 0.0,
+        "terminated": false,
+        "truncated": true,
+        "service_s": 0.15644995868206024,
+        "physical_state_changed": true,
+        "reset_s": 0.09245733404532075
+      },
+      {
+        "env_id": 1,
+        "reward": 0.0,
+        "terminated": false,
+        "truncated": true,
+        "service_s": 0.15502330800518394,
+        "physical_state_changed": true,
+        "reset_s": 0.09184973035007715
+      }
+    ],
+    [
+      {
+        "env_id": 0,
+        "reward": 0.0,
+        "terminated": false,
+        "truncated": false,
+        "service_s": 0.15970177808776498,
+        "physical_state_changed": true
+      },
+      {
+        "env_id": 1,
+        "reward": 0.0,
+        "terminated": false,
+        "truncated": false,
+        "service_s": 0.15834461199119687,
+        "physical_state_changed": true
+      },
+      {
+        "env_id": 0,
+        "reward": 0.0,
+        "terminated": false,
+        "truncated": false,
+        "service_s": 0.1544294860213995,
+        "physical_state_changed": true
+      },
+      {
+        "env_id": 1,
+        "reward": 0.0,
+        "terminated": false,
+        "truncated": false,
+        "service_s": 0.1539176870137453,
+        "physical_state_changed": true
+      },
+      {
+        "env_id": 0,
+        "reward": 0.0,
+        "terminated": false,
+        "truncated": true,
+        "service_s": 0.15526114497333765,
+        "physical_state_changed": true,
+        "reset_s": 0.09173430688679218
+      },
+      {
+        "env_id": 1,
+        "reward": 0.0,
+        "terminated": false,
+        "truncated": true,
+        "service_s": 0.1550477771088481,
+        "physical_state_changed": true,
+        "reset_s": 0.0915236733853817
+      }
+    ],
+    [
+      {
+        "env_id": 0,
+        "reward": 0.0,
+        "terminated": false,
+        "truncated": false,
+        "service_s": 0.15445735026150942,
+        "physical_state_changed": true
+      },
+      {
+        "env_id": 1,
+        "reward": 0.0,
+        "terminated": false,
+        "truncated": false,
+        "service_s": 0.15366687485948205,
+        "physical_state_changed": true
+      },
+      {
+        "env_id": 0,
+        "reward": 0.0,
+        "terminated": false,
+        "truncated": false,
+        "service_s": 0.15526165207847953,
+        "physical_state_changed": true
+      },
+      {
+        "env_id": 1,
+        "reward": 0.0,
+        "terminated": false,
+        "truncated": false,
+        "service_s": 0.15488413581624627,
+        "physical_state_changed": true
+      },
+      {
+        "env_id": 0,
+        "reward": 0.0,
+        "terminated": false,
+        "truncated": true,
+        "service_s": 0.15611468721181154,
+        "physical_state_changed": true,
+        "reset_s": 0.09156793635338545
+      },
+      {
+        "env_id": 1,
+        "reward": 0.0,
+        "terminated": false,
+        "truncated": true,
+        "service_s": 0.1545392763800919,
+        "physical_state_changed": true,
+        "reset_s": 0.09163887612521648
+      }
+    ]
+  ],
+  "phase": "complete",
+  "startup_s": 193.95143200038,
+  "rgb": [
+    {
+      "shape": [
+        480,
+        640,
+        4
+      ],
+      "std": 96.6046273962208,
+      "sha256": "017def669948db860c3282a3a40f94e7e044269b04f3800711c5de0fb4e8bd7a"
+    },
+    {
+      "shape": [
+        480,
+        640,
+        4
+      ],
+      "std": 100.6154791400844,
+      "sha256": "a721b7f2db621523b4d6bc6badef0e28a8346571344b4b49a2c46cbf2051c653"
+    },
+    {
+      "shape": [
+        480,
+        640,
+        4
+      ],
+      "std": 100.9486251004472,
+      "sha256": "d5dc7a6423f04292bd2a0c9b79d89933eb4bd41d98d8182a2f716acf4d3aa73b"
+    }
+  ],
+  "inactive_step_checks": 18,
+  "adapter_module": "kit_timeshare.backends.robodojo",
+  "initial_state_perturbed": false,
+  "loaded_legacy_modules": []
+}
