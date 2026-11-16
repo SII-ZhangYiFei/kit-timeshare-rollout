@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kit-timeshare-rollout"
+version = "0.1.0"
+description = "Independently step CPU PhysX environments with a shared Kit GPU renderer"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "YiFei Zhang"}]
+dependencies = []
+
+[project.scripts]
+kit-timeshare = "kit_timeshare.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+kit_timeshare = ["compatibility.json"]

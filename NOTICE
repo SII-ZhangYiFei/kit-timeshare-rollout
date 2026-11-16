@@ -1,0 +1,5 @@
+kit-timeshare-rollout contains original adapter and scheduler code.
+BEHAVIOR-1K, OmniGibson, RoboDojo, Isaac Lab, Isaac Sim, NVIDIA drivers,
+and their datasets are separate dependencies with their own licenses.
+No simulator, dataset, driver binary, or modified upstream source is distributed.
+Runtime compatibility patches are generated locally from the user's installed SDK.
