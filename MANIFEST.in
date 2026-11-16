@@ -1,4 +1,4 @@
 include README.zh-CN.md NOTICE
-recursive-include docs *.md *.json
+recursive-include docs *.md *.json *.csv
 recursive-include examples *.py
 recursive-include tests *.py

@@ -86,5 +86,11 @@
     "no high-count capacity retest for this API",
     "physical/task state snapshots do not cover all hidden native caches",
     "offline material dependencies produced renderer warnings; nonconstant RGB was verified"
-  ]
+  ],
+  "github_ci": {
+    "status": "not_started",
+    "reason": "account-level hosted-runner restriction",
+    "test_steps_executed": 0,
+    "local_clean_install_suite_passed": true
+  }
 }

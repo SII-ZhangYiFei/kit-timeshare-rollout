@@ -26,8 +26,10 @@ isolated/offline startup and material dependency waits. These are integration
 acceptance timings, not controlled throughput measurements or pure switch costs.
 
 The clean Python environment also passed **16 core regression tests** without
-Torch or simulator packages. GitHub CI covers the same core suite; native GPU
-acceptance is deliberately not run by public CI.
+Torch or simulator packages. The GitHub workflow is configured for the same core suite, but hosted jobs
+could not start due to an account-level runner restriction: zero test steps
+executed. Local clean-install tests and the native checks above passed. Native
+GPU acceptance is deliberately not run by public CI.
 
 [Machine-readable summary](validation/summary.json) ·
 [Per-call CSV](validation/benchmark.csv) ·
